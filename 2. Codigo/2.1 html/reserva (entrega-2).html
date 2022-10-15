@@ -63,12 +63,43 @@
             <!--CUERPO DE LA PAGINA-->
             <div class="container-fluid text-center">
                 <div class="row">
-                <div class="col-8">
-                    formulario
+                <div class="col-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombreyapellido" class="form-label">Nombre y apellido</label>
+                            <input type="text" class="form-control" id="nombreyapellido" >
+                            <div id="emailHelp" class="form-text">Ingrese nombre y apellido</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono-de-contacto" class="form-label">Teléfono de contacto</label>
+                            <input type="number" class="form-control" id="telefono-de-contacto" >
+                            <div id="telefono-de-contacto" class="form-text">Omita el uso de caracteres especiales. Solo numeros</div>
+                        </div>
+                        
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Casilla de correo</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Te enviaremos la confirmación de la reserva a esta casilla.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Cantidad-de-comensales" class="form-label">Cantidad de comensales</label>
+                            <input type="number" class="form-control" id="Cantidad-de-comensales" >
+                            <div id="Cantidad-de-comensales" class="form-text">Ingrese la cantidad de invitados que asistirán</div>
+                        </div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione la casas</option>
+                            <option value="1">Casa 1</option>
+                            <option value="2">Casa 2</option>
+                            <option value="3">Casa 3</option>
+                          </select>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones de la reserva</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reservar</button>
+                      </form>
                 </div>
-                <div class="col-4">
-                    Texto ayuda
-                </div>
+
                 </div>
             </div>
             <!--FOOTER DE LA PAGINA-->
