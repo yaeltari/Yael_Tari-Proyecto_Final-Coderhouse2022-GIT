@@ -1,0 +1,162 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*BARRA DE NAVEGACIÓN*/
+header {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid white 2px;
+}
+
+.logo { 
+    display: flex;
+    margin: 10px;
+}
+
+.logo img { 
+    height: 70px;
+    margin-right: 15px;
+}
+
+.logo h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav {
+    margin-right: 20px;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: rgb(117, 108, 22);
+    font-size: 1.6em;
+}
+.nav__link {
+    color: white;
+    padding-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/* BANNER DE ENCABEZADO DE LA PAGINA */
+.contenedor__banner {
+    display: block;
+}
+
+.contenedor__banner--img {
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.contenedor__banner img {
+    width: 100vw;
+    margin-bottom: 10px;
+}
+
+.texto__banner {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+    font-size:1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform:capitalize;
+    
+}
+
+
+
+
+/* CUERPO DE LA PAGINA */
+/*Contenedor de CASA*/
+
+.container__aux {
+    background-color: rgb(0, 0, 0);
+    width: 20vw;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px
+}
+.container__aux img {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    padding: 10px;
+}
+
+.container__textaux {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width: 20vw;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container__textaux p {
+    color: rgb(117, 108, 22);
+    text-align: justify;
+}
+
+
+/*FOOTER DE LA PAGINA*/
+footer {
+    display: flex;
+    border-top: solid white 2px;
+    margin: 10px;
+}
+
+.contenedor__footer {
+    width: 33vw;
+    margin: 20px;
+    padding: 20px;
+    color:white;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    }
+
+.contenedor__footer img {
+    height: 30px;
+    margin: 15px;
+    
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+/* esto no me estaria funcionando. So sad
+.redes a:hover {
+    color: rgb(117, 108, 22);
+    font-size: 2em;
+}*/
+
+footer button {
+    color: white;
+    border: white solid 3px;
+    padding: 15px;
+    width: 20vw;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+footer button:hover {
+    color: rgb(117, 108, 22);
+    font-size: 2em;
+}
