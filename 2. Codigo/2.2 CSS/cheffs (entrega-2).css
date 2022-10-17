@@ -14,3 +14,11 @@
     height: 40px;
     width:40px;   
  }
+
+ .pincipal-carousel {
+    font-size: calc(20px + 1.8vw);
+ }
+
+ .secuendario-carousel {
+    font-size: calc(10px + 1vw);
+ }
