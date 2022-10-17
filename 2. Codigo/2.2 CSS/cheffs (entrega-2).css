@@ -10,6 +10,12 @@
     border: solid white;
  }
 
+ .logo-redes {
+    height: 40px;
+    width:40px;   
+ }
+
+ 
 /*
 *{
     background-color: rgb(0, 0, 0);
