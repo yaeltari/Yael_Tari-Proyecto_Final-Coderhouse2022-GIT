@@ -1,3 +1,12 @@
+.bg-negropop {
+   background-color: #000;
+ }
+
+ .color-secundario {
+   color: rgb(117, 108, 22);
+}
+
+
 #logo {
     height: 40px;
     width:40px;
