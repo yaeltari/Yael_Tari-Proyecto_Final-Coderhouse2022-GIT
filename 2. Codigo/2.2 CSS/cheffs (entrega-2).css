@@ -6,6 +6,11 @@
    color: rgb(117, 108, 22);
 }
 
+footer h2, h3 {
+   color: rgb(117, 108, 22);
+}
+
+
 #logo {
     height: 40px;
     width:40px;
