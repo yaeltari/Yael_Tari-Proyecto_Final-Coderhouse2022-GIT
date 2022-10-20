@@ -7,6 +7,10 @@
    color: rgb(117, 108, 22);
 }
 
+.bg-form {
+   border: solid rgb(117, 108, 22);
+   padding: 15px;
+}
 
  .main {
    background-color: #000;
